@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="528.0" prefWidth="614.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.IngredientController">
+    <children>
+        <AnchorPane layoutY="50.0" prefHeight="478.0" prefWidth="614.0" style="-fx-background-color: d6cdc9;">
+         <children>
+            <VBox fx:id="ingriedientsvbox" layoutX="42.0" layoutY="41.0" prefHeight="382.0" prefWidth="531.0" />
+         </children>
+        </AnchorPane>
+        <AnchorPane layoutX="114.0" prefHeight="50.0" prefWidth="500.0" style="-fx-background-color: #e76832;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <Pane layoutX="23.0" layoutY="11.0" onMouseClicked="#clickOnCloseButton">
+                    <children>
+                        <ImageView fitHeight="20.0" fitWidth="20.0" layoutY="5.0">
+                            <image>
+                                <Image url="@img/close.png" />
+                            </image>
+                            <cursor>
+                                <Cursor fx:constant="HAND" />
+                            </cursor>
+                        </ImageView>
+                    </children>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Pane>
+            </children></AnchorPane>
+    </children>
+</AnchorPane>
