@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane prefHeight="58.0" prefWidth="520.0" style="-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 0); -fx-background-color: white;" stylesheets="@style.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Button fx:id="rlbutton" layoutX="279.0" layoutY="15.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="111.0" styleClass="yellowButton" text="Running Low" textFill="WHITE">
+            <font>
+                <Font name="Calibri Bold" size="16.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+        <Button fx:id="unaviablebutton" layoutX="409.0" layoutY="15.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="111.0" styleClass="redButton" text="Unavailable" textFill="WHITE">
+            <font>
+                <Font name="Calibri Bold" size="16.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+      <Label fx:id="namelabel" layoutX="26.0" layoutY="19.0" text="Name">
+         <font>
+            <Font name="Corbel Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="aviabilitylabel" layoutX="130.0" layoutY="19.0" text="Aviability">
+         <font>
+            <Font name="Corbel Bold" size="18.0" />
+         </font>
+      </Label>
+    </children>
+</Pane>

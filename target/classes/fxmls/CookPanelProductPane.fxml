@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane layoutY="244.0" prefHeight="127.0" prefWidth="233.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Label fx:id="label_product" alignment="CENTER" prefHeight="28.0" prefWidth="233.0" style="-fx-background-color: #E8E6E6;" text="pizza salami">
+            <font>
+                <Font name="Calibri" size="24.0" />
+            </font>
+        </Label>
+        <VBox fx:id="vbox_ingredients" layoutY="29.0" prefHeight="100.0" prefWidth="233.0" />
+    </children>
+</Pane>

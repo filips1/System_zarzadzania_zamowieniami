@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="717.0" prefWidth="1262.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.CookController">
+    <children>
+          <ScrollPane layoutX="11.0" layoutY="84.0" prefHeight="606.0" prefWidth="1238.0" style="-fx-background-color: light grey;">
+            <HBox fx:id="hbox_orders" layoutX="24.0" layoutY="103.0" prefHeight="582.0" prefWidth="2.0" />
+          </ScrollPane>
+        <AnchorPane prefHeight="50.0" prefWidth="934.0" style="-fx-background-color: #e76832;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <Pane layoutX="1110.0" layoutY="8.0" prefHeight="34.0" prefWidth="136.0" style="-fx-background-color: white; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 0); -fx-background-radius: 5;">
+                    <children>
+                        <Label fx:id="userLabel" layoutX="47.0" layoutY="4.0" text="Artur">
+                            <font>
+                                <Font name="System Bold" size="18.0" />
+                            </font>
+                        </Label>
+                        <Circle fill="#0c00ee" layoutX="19.0" layoutY="18.0" radius="14.0" stroke="WHITE" strokeType="INSIDE" />
+                    </children>
+                </Pane>
+            <Pane layoutX="23.0" layoutY="11.0" onMouseClicked="#clickOnCloseButton">
+               <children>
+                  <ImageView fitHeight="20.0" fitWidth="20.0" layoutY="5.0">
+                     <image>
+                        <Image url="@img/close.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+               </children>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Pane>
+            </children></AnchorPane>
+    </children>
+</AnchorPane>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane fx:id="productPane" prefHeight="238.0" prefWidth="232.8" styleClass="productCard" stylesheets="@style.css">
+         <children>
+            <ImageView fx:id="imageView" fitHeight="186.0" fitWidth="233.0">
+               <image>
+                  <Image url="@img/ec82a115-13e9-46b8-b343-05c3eb88969a%20(1).jpeg" />
+               </image>
+            </ImageView>
+            <Label fx:id="label" alignment="CENTER" layoutX="-3.0" layoutY="196.0" maxWidth="1.7976931348623157E308" minWidth="-Infinity" prefHeight="28.0" prefWidth="238.0" text="Salami" textAlignment="CENTER">
+               <font>
+                  <Font name="Calibri" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</Pane>
